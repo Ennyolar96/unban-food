@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Navlinks from './nav_links/Navlinks';
 import {
@@ -11,7 +12,6 @@ import Product from './Product/Product'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer';
-
 
 function App() {
   return (
