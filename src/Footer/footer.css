@@ -1,0 +1,12 @@
+.footer{
+    background-color:#4267B2;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin-left: -1.8em;
+}
+.link-style{
+    text-decoration: none;
+    color:white;
+}
