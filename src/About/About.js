@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import p1 from '../images/aboutImg/r1.jpg'
-import blessing from '../images/profile/bee.jpeg'
-import ola from '../images/profile/codin.jpeg'
-import nn from '../images/profile/Nnamdi.jpeg'
+import p1 from '../Images/AboutImg/r1.jpg'
+import blessing from '../Images/Profiles/bee.jpeg'
+import ola from '../Images/Profiles/codin.jpeg'
+import nn from '../Images/Profiles/namdi.jpeg'
 
 function About() {
   let dev5Scr =
