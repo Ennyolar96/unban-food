@@ -1,32 +1,33 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 import './navlink.css'
-
-
 
 function Navlinks() {
   return (
-    <div className='navcontainer'>
-      <div className='logo'>
-        <h1>Urban Food</h1>
-      </div>
-        <ul className='navbar'>
-          <li> 
-           <Link className='navlink' to="/">Home</Link>
-          </li>
-          <li>
-            <Link className='navlink' to="/product">Product</Link>
-          </li>
-          <li>
-           <Link className='navlink' to="/about">About Us</Link>
-          </li>
-          <li>
-           <Link className='navlink' to="/contact">Contact Us</Link>
-          </li>
-        </ul>
-        
-       
-    </div>
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      className="navcontainer"
+    >
+      <Container>
+        <Navbar.Brand href="/" className="logo">
+          <h3>Urban Food</h3>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto"></Nav>
+          <Nav className="smallNav">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/product">Product</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/contact">Contact </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
