@@ -1,12 +1,22 @@
-.footer{
-    background-color:#4267B2;
-    color: white;
+.footer {
+  background-color: #4267b2;
+  color: white;
 }
-ul{
-    list-style: none;
-    margin-left: -1.8em;
+ul {
+  list-style: none;
+  margin-left: -1.8em;
 }
-.link-style{
-    text-decoration: none;
-    color:white;
+.link-style {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .ne {
+    display: none;
+  }
+  .ne-1 {
+    margin-bottom: -2em;
+    margin-top: -1em;
+    text-align: center;
+  }
 }
