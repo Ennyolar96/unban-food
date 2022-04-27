@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import p1 from '../Images/AboutImg/r1.jpg'
+import p1 from '../Images/aboutImg/r1.jpg'
 import blessing from '../Images/Profiles/bee.jpeg'
 import ola from '../Images/Profiles/codin.jpeg'
 import nn from '../Images/Profiles/namdi.jpeg'
