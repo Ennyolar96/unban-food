@@ -32,7 +32,7 @@ const Home =()=> {
 
 
   return (
-    <div className='main'>
+    <div className='main1'>
       <div className="top">
         <aside>
           <div className="txt1">

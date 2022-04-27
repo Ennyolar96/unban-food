@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.min.css'
 function Footer() {
   const date = new Date().getFullYear()
   return (
-    <footer className="footer text-center text-lg-start fixed-bottom">
+    <footer className="footer text-center text-lg-start">
       <div className="container p-4 ne">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
