@@ -75,7 +75,7 @@ const proObj = [
 ] 
 
 const ProductDetails = proObj.map((item) => {
-  console.log(item)
+  // console.log(item)
   return(
     <div >
      <Productcall name = {item.name} prices = {item.prices} images = {item.images} />   
