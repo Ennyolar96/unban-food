@@ -12,6 +12,4 @@ const items = [
     {id:3, name: item3.name, desc: "The generally loved Egusi.", image: item3.images}
 ];
 
-console.log(products.props.children.props.children[13].props.children.props)
-
 export default items;

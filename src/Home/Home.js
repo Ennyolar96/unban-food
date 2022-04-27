@@ -13,7 +13,6 @@ const Home =()=> {
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let dots = document.getElementsByClassName("dot");
-        let s = document.getElementById("s");
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";  
         }
@@ -33,14 +32,6 @@ const Home =()=> {
 
 
   return (
-    // <div className='main'>
-    //     <section className="top">
-
-    //       <div className="txt">
-    //         <h3>HOME OF GOOD MEALS...</h3>
-    //       </div>          
-    //     </section>
-
     <div className='main'>
       <div className="top">
         <aside>
