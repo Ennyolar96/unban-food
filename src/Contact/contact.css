@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mg-20{
+    margin: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.lf-md{
+    margin-left: 15px;
+}
+.fa{
+    font-size: 1.5rem;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control input{
+    padding: 5px;
+    outline: none;
+   border: 1px solid #f0f0f0;
+}
+
+.input-control textarea{
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    outline: none;
+}
+.input-control label{
+    margin: 10px 0;
+}
