@@ -1,6 +1,6 @@
 * {
   overflow-x: hidden;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .productcontainer img {
   width: 200px;
@@ -9,6 +9,7 @@
 .productcontainer {
   margin: 10px;
   box-shadow: 0 0 1px #000;
+  border-radius: 5px;
 }
 .productcontainer p {
   font-size: 1rem;
